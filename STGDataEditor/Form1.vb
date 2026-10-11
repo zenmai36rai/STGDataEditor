@@ -16,7 +16,7 @@ Public Class Form1
                 Using reader As SqliteDataReader = command.ExecuteReader()
                     While reader.Read()
                         ' カラム名やインデックスでデータを取得
-                        Console.WriteLine($"ID: {reader("ID")} | Name: {reader("Name")}")
+                        RichTextBox1.Text += ($"ID: {reader("ID")} | Name: {reader("Name")}") + vbLf
                         TextBox6.Text = reader("ID")
                         TextBox1.Text = reader("Name")
                     End While
