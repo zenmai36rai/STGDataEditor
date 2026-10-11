@@ -56,7 +56,7 @@ Partial Class Form1
         '
         Me.TextBox1.Location = New System.Drawing.Point(182, 37)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(166, 19)
+        Me.TextBox1.Size = New System.Drawing.Size(94, 19)
         Me.TextBox1.TabIndex = 1
         '
         'TextBox2
@@ -92,7 +92,7 @@ Partial Class Form1
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(182, 172)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(166, 20)
+        Me.ComboBox1.Size = New System.Drawing.Size(94, 20)
         Me.ComboBox1.TabIndex = 6
         '
         'Label1
@@ -151,7 +151,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(126, 202)
+        Me.Button1.Location = New System.Drawing.Point(68, 202)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(95, 26)
         Me.Button1.TabIndex = 13
@@ -160,7 +160,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(227, 202)
+        Me.Button2.Location = New System.Drawing.Point(169, 202)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(95, 26)
         Me.Button2.TabIndex = 14
@@ -180,14 +180,14 @@ Partial Class Form1
         '
         Me.TextBox6.Location = New System.Drawing.Point(182, 12)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(166, 19)
+        Me.TextBox6.Size = New System.Drawing.Size(94, 19)
         Me.TextBox6.TabIndex = 15
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(363, 13)
+        Me.RichTextBox1.Location = New System.Drawing.Point(295, 13)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(328, 215)
+        Me.RichTextBox1.Size = New System.Drawing.Size(405, 215)
         Me.RichTextBox1.TabIndex = 17
         Me.RichTextBox1.Text = ""
         '
@@ -195,7 +195,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(712, 277)
+        Me.ClientSize = New System.Drawing.Size(712, 246)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TextBox6)
