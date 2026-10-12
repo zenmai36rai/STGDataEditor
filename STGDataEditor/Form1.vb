@@ -49,5 +49,14 @@ Public Class Form1
         End Using
 
     End Sub
+    Public img As Bitmap
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim ofd As OpenFileDialog = New OpenFileDialog
+        ofd.ShowDialog()
+        TextBox7.Text = ofd.FileName
+        img = New Bitmap(TextBox7.Text)
+        PictureBox1.Image = img
+    End Sub
 End Class
 ' Copyright by Kyosuke Miyazawa 2026/10/8 All Right Reserved

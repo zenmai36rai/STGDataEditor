@@ -40,6 +40,8 @@ Partial Class Form1
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -191,11 +193,29 @@ Partial Class Form1
         Me.RichTextBox1.TabIndex = 17
         Me.RichTextBox1.Text = ""
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(10, 109)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(106, 24)
+        Me.Button3.TabIndex = 18
+        Me.Button3.Text = "Button3"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(10, 139)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(106, 19)
+        Me.TextBox7.TabIndex = 19
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(712, 246)
+        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TextBox6)
@@ -240,4 +260,6 @@ Partial Class Form1
     Friend WithEvents Label7 As Label
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents Button3 As Button
+    Friend WithEvents TextBox7 As TextBox
 End Class
