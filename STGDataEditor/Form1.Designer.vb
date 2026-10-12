@@ -157,7 +157,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(95, 26)
         Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "SELECT"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -166,7 +166,7 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(95, 26)
         Me.Button2.TabIndex = 14
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "INSERT"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label7
@@ -199,7 +199,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(106, 24)
         Me.Button3.TabIndex = 18
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "OpenFile"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'TextBox7
